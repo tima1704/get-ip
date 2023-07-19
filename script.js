@@ -1,4 +1,4 @@
-fetch("https://ipinfo.io/json?token")
+fetch("https://ipinfo.io/json")
 .then((response) => response.json())
 
 .then((jsonResponse) => {
